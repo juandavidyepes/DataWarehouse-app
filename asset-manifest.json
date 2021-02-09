@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/DataWarehouse-app.git/static/css/main.2202a51b.chunk.css",
+    "main.js": "/DataWarehouse-app.git/static/js/main.87c4ca3f.chunk.js",
+    "main.js.map": "/DataWarehouse-app.git/static/js/main.87c4ca3f.chunk.js.map",
+    "runtime-main.js": "/DataWarehouse-app.git/static/js/runtime-main.c548fc62.js",
+    "runtime-main.js.map": "/DataWarehouse-app.git/static/js/runtime-main.c548fc62.js.map",
+    "static/css/2.5523a9bf.chunk.css": "/DataWarehouse-app.git/static/css/2.5523a9bf.chunk.css",
+    "static/js/2.0e7efee5.chunk.js": "/DataWarehouse-app.git/static/js/2.0e7efee5.chunk.js",
+    "static/js/2.0e7efee5.chunk.js.map": "/DataWarehouse-app.git/static/js/2.0e7efee5.chunk.js.map",
+    "static/js/3.ae4e4030.chunk.js": "/DataWarehouse-app.git/static/js/3.ae4e4030.chunk.js",
+    "static/js/3.ae4e4030.chunk.js.map": "/DataWarehouse-app.git/static/js/3.ae4e4030.chunk.js.map",
+    "index.html": "/DataWarehouse-app.git/index.html",
+    "static/css/2.5523a9bf.chunk.css.map": "/DataWarehouse-app.git/static/css/2.5523a9bf.chunk.css.map",
+    "static/css/main.2202a51b.chunk.css.map": "/DataWarehouse-app.git/static/css/main.2202a51b.chunk.css.map",
+    "static/js/2.0e7efee5.chunk.js.LICENSE.txt": "/DataWarehouse-app.git/static/js/2.0e7efee5.chunk.js.LICENSE.txt",
+    "static/media/semantic.min.css": "/DataWarehouse-app.git/static/media/outline-icons.ddae9b1b.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c548fc62.js",
+    "static/css/2.5523a9bf.chunk.css",
+    "static/js/2.0e7efee5.chunk.js",
+    "static/css/main.2202a51b.chunk.css",
+    "static/js/main.87c4ca3f.chunk.js"
+  ]
+}
