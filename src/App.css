@@ -1,38 +1,141 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.nav {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-end;
+}
+
+.navBar {
+  background-color: #0462ba;
+  height: 64px;
+}
+
+.navBar img {
+  height: 3rem;
+  margin: 0 auto 0 1.9%;
+}
+
+.navBar .nav-link {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.login {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 15px;
+  border: solid 1px #ccc;
+  border-radius: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login .submitBtn {
+  border-radius: 2px;
+  background-color: #0462ba;
+}
+
+.title {
+  margin: 39.6px 0 10px 29.4px;
+  color: #333333;
+  font-weight: bold;
+}
+
+.manageData {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 28px 0 29.5px;
+}
+
+.searchBar {
+  max-width: 1000px;
+  display: flex;
+  height: 48px;
+  margin: 0;
+  z-index: +1;
+}
+
+.searchBar .MuiPaper-root {
+  width: 502px;
+  border: solid 1px #ccc;
+}
+
+.searchBar .accordionBar {
+  width: 493px;
+  margin: 0 9px 0 29.5px;
+}
+
+.searchBar .accordionDrop {
+  padding: 0 16.7px 0 16.7px;
+}
+
+.searchBar .accordionDrop .listItem {
+  padding: 5px 0;
+}
+
+.searchBar .accordionDrop .listItem .optionsAuto {
+  width: 190px;
+}
+
+.searchBar .accordionDrop .listItem .listText {
+  width: 120px;
+  margin: 0 33px 0 0;
+  font-size: 12px;
+}
+
+.searchBar .searchIcon {
+  color: #0462ba;
+  border: solid 1px #ccc;
+  border-radius: 3.5px;
+  width: 48px;
+  height: 48px;
+  margin: 0 0 0 9px;
+}
+
+.exportAdd {
+  width: 411px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 0 auto;
+}
+
+.exportAdd .uploadIcon {
+  color: #0462ba;
+  border: solid 1px #0462ba;
+  border-radius: 3.5px;
+  width: 48px;
+  height: 48px;
+}
+
+.exportAdd .exportSelect .btn {
+  width: 172px;
+  height: 48px;
+  font-size: 14px;
+  background-color: white;
+  color: #0462ba;
+}
+
+.exportAdd .exportSelect .selectItems {
+  height: 112px;
+}
+
+.exportAdd .exportSelect .selectItems .dropdown-item {
+  color: #0462ba;
+  width: 172px;
+  font-size: 14px;
+  height: 41.5px;
+  padding: 10px 10.5px;
+}
+
+.exportAdd .addBtn {
+  background-color: #0462ba;
+  color: white;
+  width: 173px;
+  height: 48px;
+  font-size: 14px;
+  text-transform: none;
 }

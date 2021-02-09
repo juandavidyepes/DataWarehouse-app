@@ -1,23 +1,24 @@
-import logo from './logo.svg';
+import React from 'react';
+import 'react-bootstrap';
+import Navbar from './components/Navbar';
+import Login from './components/Login';
+import Searchbar from './components/SearchBar';
+import ExportAdd from './components/ExportAdd';
+import DataTable from './components/DataTable';
 import './App.css';
+
+const title = 'Contactos';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Navbar />
+      <h1 className='title'>{title}</h1>
+      <section className='manageData'>
+        <Searchbar />
+        <ExportAdd />
+      </section>
+      <DataTable />
     </div>
   );
 }
